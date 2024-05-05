@@ -1,0 +1,21 @@
+.btn {
+    background: white;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: #198754;
+    color: var(--secondary-font-color);
+}
+
+.btn-warning {
+    background-color: var(--additional-bg-color);
+    color: var(--secondary-font-color);
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: var(--secondary-font-color);
+}

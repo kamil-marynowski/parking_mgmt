@@ -1,0 +1,41 @@
+:root {
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #edb203;
+    --additional-bg-color: #dca102;
+
+    --primary-font-color: #000000;
+    --secondary-font-color: #ffffff;
+}
+
+* {
+    font-size: 20px;
+    font-family: Verdana, serif;
+    color: var(--primary-font-color);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body.modal-show > *:not(.modal) {
+    background: #ffd83c;
+    filter: blur(3px);
+}
+
+a:link, a:visited, a:hover {
+    text-decoration: none;
+}
+
+.error {
+    color: #dc3545;
+    display: none;
+}
+
+.error.show {
+    display: block;
+}
